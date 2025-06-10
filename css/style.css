@@ -33,15 +33,17 @@ nav>a {
 }
 
 section {
-    height: 1250px;
-    font-size: large;
+    height: 600px;
+    font-size: larger;
 }
 
 .banner-img {
-    height: 600px;
     background-image: url(../assets/p.jpeg);
+    height: 500px;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
 }
 
 /* Footer Component */
