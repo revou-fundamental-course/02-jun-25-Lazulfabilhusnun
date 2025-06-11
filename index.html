@@ -23,7 +23,7 @@
                 <a href="#tentang-persija">Tentang Persija</a>
                 <a href="#galeri">Galeri</a>
                 <a href="#gelar-juara">Gelar Juara</a>
-                <a href="#kontak">Kontak</a>
+                <a href="#pesan">Pesan</a>
         </nav>
      </header>
 
@@ -67,15 +67,45 @@ Dengan sejarah panjang, membuat Persija terus melahirkan dan dihuni pemain-pemai
          <hr />
 
         <!-- Kontak Section-->
-         <section id="kontak">
-          <h1>Kontak</h1>
-          <p>Silahkan hubungi kami</p>
+         <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Message Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message" id="name-error"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message" id="email-error"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Nomor Telepon:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <span class="error-message" id="phone-error"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <span class="error-message" id="message-error"></span>
+                </div>
+                
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            
+            <div id="form-result" class="form-result">
+                <!-- Hasil form akan ditampilkan di sini -->
+            </div>
+        </div>
 
-          <form></form>
+        <hr />
+    </section>
 
-         </section>
-
-         <hr />
       </main>
 
     <!-- Footer Content -->
