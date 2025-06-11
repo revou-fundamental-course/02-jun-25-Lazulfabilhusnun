@@ -35,9 +35,11 @@ nav>a {
 section {
     height: 600px;
     font-size: larger;
+    text-align: center;
 }
 
 .banner-img {
+    display: flex;
     background-image: url(../assets/p.jpeg);
     height: 500px;
     background-size: cover;
