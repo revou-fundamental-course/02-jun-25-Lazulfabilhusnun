@@ -39,12 +39,21 @@ section {
 }
 
 .banner-img {
-    display: flex;
-    background-image: url(../assets/p.jpeg);
     height: 500px;
     background-size: cover;
     background-position: center;
-    justify-content: center;
+}
+
+.img-p {
+    background-image: url(../assets/p.jpeg);
+}
+
+.img-1 {
+    background-image: url(../assets/1.jpg);
+}
+
+.img-2 {
+    background-image: url(../assets/2.jpg);s
 }
 
 /* Contact Section Styles */
@@ -122,6 +131,8 @@ button[type="submit"]:hover {
     border-radius: 5px;
     display: none;
 }
+
+
 
 /* Footer Component */
 footer {

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const welcomeMessage = document.getElementById('welcome-message');
     
     if (nameParam) {
-        welcomeMessage.textContent = `Hi ${nameParam}, Selamat Datang di websitse coba-coba saya`;
+        welcomeMessage.textContent = `Hi ${nameParam}, Selamat Datang di Website coba-coba saya`;
     }
     
     // Toggle menu mobile
@@ -118,3 +118,29 @@ document.addEventListener('DOMContentLoaded', function() {
         formResult.scrollIntoView({ behavior: 'smooth' });
     }
 });
+
+let indexBanner = 0;
+
+showBanner();
+
+function nextBanner() {
+    indexBanner += 1;
+    showBanner();
+}
+
+// Index
+function showBanner() {
+    const listimage = document.getElementsByClassName (banner-img);
+
+    if (indexBanner > listimage.length - 1) {
+        indexBanner = 0;
+    }
+
+    // Looping to hide all banner
+    for(let i = 0; i <listimage.length i++) {
+
+    }
+
+    listimage(i).style.display = "block";
+    console.log (listimage);
+}
